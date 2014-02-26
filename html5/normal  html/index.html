@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Tabs</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    $(".tabLink").each(function(){
+      $(this).click(function(){
+        tabeId = $(this).attr('id');
+        $(".tabLink").removeClass("activeLink");
+        $(this).addClass("activeLink");
+        $(".tabcontent").addClass("hide");
+        $("#"+tabeId+"-1").removeClass("hide")   
+        return false;	  
+      });
+    });  
+  });
+</script>
+</head>
+<body>
+<div id="contenr">
+<div id="header">
+  <div id="nav">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+  </div>
+  <img src="images/header.jpg"  class="theme"/>
+  <div class="tab-box"> <a href="javascript:;" class="tabLink activeLink" id="cont-1">Tab 1</a> <a href="javascript:;" class="tabLink " id="cont-2">Tab 2</a> <a href="javascript:;" class="tabLink " id="cont-3">Tab 3</a> <a href="javascript:;" class="tabLink " id="cont-4">Tab 4</a> </div>
+  <div class="tabcontent" id="cont-1-1">
+    <h1>Free checking that's honestly free — it's a mark of our integrity.</h1>
+    <p>More content can be added in this tab area. However, this is just a FPO - Demonstration purpose only.</p>
+    <h2>While other banks scale back their "free checking" offerings, we continue to stand our ground.</h2>
+    <div class="list">
+      <ul>
+        <li>No monthly fees</li>
+        <li>Free ATMs nationwide</li>
+        <li>Access your account anywhere, anytime </li>
+        <li>Deposits made easy</li>
+      </ul>
+    </div>
+    <div id="bootom"><img src="images/open.jpg"  class="open"/> <span class="checking">Learn More about Free Checking</span> <span class="reviews">(13318 Reviews)</span> <span class="mobile">Explore USAA Mobile</span> </div>
+  </div>
+  <div class="tabcontent hide" id="cont-2-1">
+    <h1>Helping you with your financial security is our goal.</h1>
+    <p>More content can be added in this tab area. However, this is just a FPO - Demonstration purpose only.</p>
+    <h2>While other banks scale back their "free checking" offerings, we continue to stand our ground.</h2>
+    <div class="list">
+      <ul>
+        <li>No monthly fees</li>
+        <li>Free ATMs nationwide</li>
+        <li>Access your account anywhere, anytime </li>
+        <li>Deposits made easy</li>
+      </ul>
+    </div>
+<div id="bootom"><img src="images/open.jpg"  class="open"/> <span class="checking">Learn More about Free Checking</span> <span class="reviews">(13318 Reviews)</span> <span class="mobile">Explore USAA Mobile</span> </div>
+  </div>
+  <div class="tabcontent hide" id="cont-3-1">
+    <h1>A credit card is only as good as the bank that stands behind it.</h1>
+    <p>More content can be added in this tab area. However, this is just a FPO - Demonstration purpose only.</p>
+    <h2>While other banks scale back their "free checking" offerings, we continue to stand our ground.</h2>
+    <div class="list">
+      <ul>
+        <li>No monthly fees</li>
+        <li>Free ATMs nationwide</li>
+        <li>Access your account anywhere, anytime </li>
+        <li>Deposits made easy</li>
+      </ul>
+    </div>
+  <div id="bootom"><img src="images/open.jpg"  class="open"/> <span class="checking">Learn More about Free Checking</span> <span class="reviews">(13318 Reviews)</span> <span class="mobile">Explore USAA Mobile</span> </div>
+  </div>
+  <div class="tabcontent hide" id="cont-4-1">
+    <h1>We're here to serve you through every stage of life.</h1>
+    <p>More content can be added in this tab area. However, this is just a FPO - Demonstration purpose only.</p>
+    <h2>While other banks scale back their "free checking" offerings, we continue to stand our ground.</h2>
+    <div class="list">
+      <ul>
+        <li>No monthly fees</li>
+        <li>Free ATMs nationwide</li>
+        <li>Access your account anywhere, anytime </li>
+        <li>Deposits made easy</li>
+      </ul>
+    </div>
+  <div id="bootom"><img src="images/open.jpg"  class="open"/> <span class="checking">Learn More about Free Checking</span> <span class="reviews">(13318 Reviews)</span> <span class="mobile">Explore USAA Mobile</span> </div>
+  </div>
+</div>
+</body>
+</html>

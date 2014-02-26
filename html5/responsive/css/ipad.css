@@ -1,0 +1,27 @@
+body{background-repeat:repeat-x}
+#header-wrapper{float:left;width:100%; border-top:3px solid #dcdcdc;background:url(../images/ipad-bg.png) top center no-repeat #fff ;}
+#header{width:768px; overflow:hidden;}
+.top-heading-bg{ background:url(../images/ipad-head-bg.png) 0 0 no-repeat; width:768px; padding-left:0px; }
+#header-img{width:768px; height:357px}
+.contactus-top{left:479px;}
+.container{margin:0 auto; width:768px;}
+#content{width:100%; margin-left:0px; border:none}
+.photo{ width:187px; height:131px; margin-bottom:0px;}
+.left-section{ width:429px;}
+.content-main{overflow:hidden}
+#footer{width:728px;margin:0 auto;overflow:hidden;padding:9px 20px 10px;text-align:center}
+.offers{border:none; border-top:1px solid #D4D4D4; border-bottom:1px solid #D4D4D4; width:100%; margin-left:0px;}
+#content-footer{width:768px; background:url(../images/ipad-shadow.png) center top no-repeat; overflow:hidden}
+#footer-wrapper{background:#fff}
+.tele-no{white-space:nowrap; margin-right:10px;}
+.footer-btn span{ padding-bottom:9px}
+.banner-sec{margin-top:0px;}
+.middle-heading{height:41px; font-size:16px;}
+.marL10{margin-left:8px !important}
+.contactus-top input{border-radius:0px;}
+.address a{text-decoration:underline !important}
+.map{margin-left:0px}
+.input-text-captch-bk{height:28px;}
+.box span{padding-top:5px; height:35px}
+p{font-size:12px;}
+

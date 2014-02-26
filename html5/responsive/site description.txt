@@ -1,0 +1,24 @@
+Hi Abhi,
+
+Please find the sample Web Site that has been made.
+
+This consists of 3 Models of View.
+
+1) Desktop
+2) Ipad
+3) Iphone
+
+As per the window size the browser will automatically trigger and to shift its model
+
+Ex : If the Browser window is Maximised, its will use Desktop Model
+if the Browser window is opened and croped to be small,it will take Iphone model.
+
+Find the coding for it
+<link href="css/main.css" rel="stylesheet" media="all"/>
+<link rel="stylesheet" href="css/ipad.css" media="only screen and (min-width: 768px) and (max-width: 978px)"/>
+<link rel="stylesheet" href="css/iphone.css" media="only screen and (max-width: 767px)"/>
+
+This Sample Website is made using CSS stylesheet.
+
+contact me if you have any doubts
+

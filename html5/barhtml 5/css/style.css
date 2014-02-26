@@ -1,0 +1,325 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+ font-family: 'League_Gothic-webfont';
+ src: url('../fonts/League_Gothic-webfont.eot');
+ src: url('../fonts/League_Gothic-webfont.woff') format('woff');
+ font-weight: normal;
+ font-style: normal;
+}
+body{
+margin:0;
+padding:0;
+background:#180b05;
+}
+h1{
+margin:0 0 12px 0;
+ font-family: 'League_Gothic-webfont';
+ font-size:34px;
+ line-height:20px;
+ font-weight:100;
+ color:#FFFFFF;
+}
+h2{
+margin: 402px 0 12px 83px;
+ font-family: 'League_Gothic-webfont';
+ font-size:45px;
+ line-height:45px;
+ font-weight:100;
+ color:#FFFFFF;
+ float:left;
+}
+p{
+font:normal 14px/20px Arial, Helvetica, sans-serif;
+margin:0 0 12px 0;
+color:#ffa449;
+}
+a img {
+border:none;
+}
+#wraper{
+width:100%;
+float:left;
+margin:0;
+padding:0;
+background:url(../images/wraper-bg.jpg) no-repeat center 191px #130a01;
+border-bottom:5px solid #d08704;
+}
+
+
+#header-wraper{
+width:100%;
+float:left;
+background:url(../images/header-bg-wraper.jpg) repeat-x left top;
+}
+
+.contner{
+width:990px;
+margin:0 auto;
+}
+header{
+width:990px;
+float:left;
+margin:0;
+padding:0;
+}
+img.logo{
+float:left;
+margin:38px 0 34px 50px;
+padding:0;
+}
+.cta{
+width:200px;
+float:right;
+margin:50px 0 0 40px;
+padding:0 0 10px 30px;
+background:url(../images/phone-icon.png) no-repeat left top;
+color:#fffa8f;
+font: bold 25px Arial, Helvetica, sans-serif;
+}
+nav{
+float:left;
+margin:0;
+padding:0;
+text-align:center;
+width:990px;
+clear:left;
+}
+
+ul#mainnav {
+	width:auto;
+	padding: 0;
+	margin: 0 0 0 150px;
+	float:left;
+	list-style:none;
+}
+ul#mainnav li {
+	display: inline;
+	margin:0px;
+	padding:0 10px;
+	background:url(../images/nav-line.png) no-repeat left top;
+	float:left;
+}
+ul#mainnav li.first{
+background:none;
+}
+ul#mainnav li a {
+	
+	float: left;
+	text-decoration: none;
+	padding:0 0 0 32px;
+
+	font:normal 14px/20px  Arial;
+	color: #fff;
+text-transform:uppercase;
+	margin:0 0px 0 5px;
+}
+ul#mainnav li a span {
+	padding: 9px 32px 11px 0px;
+	display: block;
+
+}
+ul#mainnav li a:hover, ul#mainnav li a.current {
+	background: url(../images/nav-left.png) no-repeat left top;
+	padding:0 0 0 32px;
+	display: block;
+	color:#fff;
+}
+ul#mainnav li a:hover span, ul#mainnav li a.current span {
+	background:url(../images/nav-right.png) no-repeat right top;
+	padding: 9px 32px 11px 0px;
+	display: block;
+	color:#fff;
+}
+
+
+.content{
+float:right;
+margin:0;
+padding:0;
+width:990px;
+}
+
+
+#right-panel
+{border-bottom:5px solid #ff0000!important;
+width:480px;
+float:right;
+padding:0 0px 32px 0;
+margin:0 22px -5px 0;
+
+
+
+}
+
+.first-box{
+width: 445px;
+    height: 179px;
+float:left;
+border:1px solid #785702;
+background:url(../images/opacity-bg.png) repeat left top;
+padding:17px 10px 10px 15px ;
+  behavior: url(PIE.htc);
+  -webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+position:relative;
+  margin: 40px 0 20px 4px;
+
+
+}
+:focus{
+outline:none !important;
+}
+#tab-nav{
+float:left;
+margin: 0px 0 0 4px;
+padding:0;
+width: 459px;
+clear:left;
+}
+#tab-nav ul{
+list-style:none;
+margin:0 0 0 20px;
+padding:0;
+}
+#tab-nav ul li{
+margin:0;
+padding:0;
+float:left;
+}#tab-nav ul li a {
+margin:0 10px 0 0;
+padding:10px 0 8px 0;
+width:148px;
+float:left;
+text-align:center;
+background:url(../images/tab-hover.png) no-repeat left top;
+ font-family: 'League_Gothic-webfont';
+ font-size:23px;
+ line-height:20px;
+ font-weight:100;
+ color:#fff;
+text-decoration:none;
+
+}
+
+
+#tab-nav ul li a:hover, #tab-nav ul li a.current{
+background:url(../images/tab-narmal.png) no-repeat left top;
+}
+
+#tab-nav ul li span {
+margin:20px 10px 0 0;
+padding:10px 0 8px 0;
+width:148px;
+float:left;
+text-align:center;
+background:url(../images/tab-narmal.png) no-repeat left top;
+ font-family: 'League_Gothic-webfont';
+ font-size:23px;
+ line-height:20px;
+ font-weight:100;
+ color:#fff;
+text-decoration:none;
+
+}
+
+
+.tab-content{
+width:435px;
+float:left;
+clear:left;
+margin:0 0px 0 0px;
+padding:30px 20px;
+background:url(../images/opacity-content.png) repeat left top;
+ behavior: url(PIE.htc);
+  -webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+position:relative;
+border:1ps solid #000;
+-webkit-box-shadow:  2px 2px 10px 3px rgba(12, 12, 12, 0.5);
+        
+        box-shadow:  2px 2px 10px 3px rgba(12, 12, 12, 0.5);
+		
+		
+}
+.tab-content p{
+font:normal 14px/20px Arial, Helvetica, sans-serif;
+color:#000;
+margin:0 0 15px 0;
+clear:left;
+}
+#tab-nav .tab-content ul{
+margin:0;
+padding:0;
+list-style:none;
+}
+#tab-nav .tab-content ul li{
+font:bold 12px/20px Arial, Helvetica, sans-serif;
+color:#000;
+background:url(../images/bullet.png) no-repeat left top;
+margin:0 0 10px 0;
+padding:0 0 0 30px;
+}
+footer{
+float:left;
+margin:0;
+padding:25px 0 0 0;
+background:url(../images/footer-bg.jpg) repeat-x left top #180b05; 
+width:100%;
+
+}
+footer ul{
+
+float:left;
+list-style:none;
+margin:0 0 10px 315px;
+padding:0;
+
+}
+footer ul li{
+float:left;
+margin:0;
+padding:0 10px 0 10px;
+
+background:url(../images/uti-line.png) no-repeat right 5px;
+
+}
+
+footer ul li a{
+color:#d87e24;
+font:normal 14px/20px Arial, Helvetica, sans-serif; 
+text-decoration:none;
+}
+footer ul li a:hover{
+text-decoration:underline;
+}
+footer ul li.last{
+background:none;
+}
+.footer-inner{
+width:990px;
+margin:0 auto;
+}
+.copy{
+width:990px;
+text-align:center;
+color:#d87e24;
+font:normal 14px/20px Arial, Helvetica, sans-serif; 
+margin:0 0 20px 0;
+clear:left;
+}
+img.right{
+margin:-15px 0 0 0;
+padding:0;
+float:right;
+}
+
+
+
+
+
+
+
+
